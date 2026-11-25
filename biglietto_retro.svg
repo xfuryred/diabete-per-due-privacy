@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 850 550" width="85mm" height="55mm">
+  <defs>
+    <linearGradient id="backBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f0f9ff"/>
+    </linearGradient>
+    <linearGradient id="backAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <filter id="backShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="850" height="550" fill="url(#backBgGrad)"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="850" height="12" fill="url(#backAccent)"/>
+
+  <!-- Left Column: Big Headline & Instructions -->
+  <g class="font-sans" transform="translate(50, 45)">
+    <!-- Header Badge -->
+    <rect x="0" y="0" width="165" height="26" rx="13" fill="#e0f2fe"/>
+    <text x="14" y="17" font-size="12" font-weight="800" fill="#0369a1">ANTEPRIMA GRATUITA</text>
+
+    <text x="0" y="65" font-size="34" font-weight="900" fill="#0f172a" letter-spacing="-0.5">Scansiona con</text>
+    <text x="0" y="105" font-size="34" font-weight="900" fill="#0284c7" letter-spacing="-0.5">lo smartphone!</text>
+
+    <text x="0" y="145" font-size="14.5" font-weight="600" fill="#334155" width="400">
+      <tspan x="0" dy="0">Inquadra il QR code con la fotocamera</tspan>
+      <tspan x="0" dy="24">per accedere alla pagina del progetto,</tspan>
+      <tspan x="0" dy="24">provare l'app in anteprima su Google Play</tspan>
+      <tspan x="0" dy="24">o unirti ai nostri tester ufficiali.</tspan>
+    </text>
+
+    <!-- 3 Quick Step Icons -->
+    <g transform="translate(0, 245)">
+      <!-- Step 1 -->
+      <circle cx="16" cy="16" r="16" fill="#f1f5f9"/>
+      <text x="11" y="22" font-size="15" font-weight="800" fill="#0284c7">1</text>
+      <text x="42" y="15" font-size="13" font-weight="700" fill="#0f172a">Apri la fotocamera</text>
+      <text x="42" y="29" font-size="11.5" font-weight="500" fill="#64748b">Punta verso il codice a destra</text>
+
+      <!-- Step 2 -->
+      <g transform="translate(0, 48)">
+        <circle cx="16" cy="16" r="16" fill="#f1f5f9"/>
+        <text x="11" y="22" font-size="15" font-weight="800" fill="#0284c7">2</text>
+        <text x="42" y="15" font-size="13" font-weight="700" fill="#0f172a">Apri il link</text>
+        <text x="42" y="29" font-size="11.5" font-weight="500" fill="#64748b">Vedi presentazione o unisciti al test</text>
+      </g>
+
+      <!-- Step 3 -->
+      <g transform="translate(0, 96)">
+        <circle cx="16" cy="16" r="16" fill="#f1f5f9"/>
+        <text x="11" y="22" font-size="15" font-weight="800" fill="#0284c7">3</text>
+        <text x="42" y="15" font-size="13" font-weight="700" fill="#0f172a">Installa e condividi</text>
+        <text x="42" y="29" font-size="11.5" font-weight="500" fill="#64748b">Gratis, senza dati personali né ads</text>
+      </g>
+    </g>
+
+    <!-- Web Link Pill -->
+    <g transform="translate(0, 410)">
+      <rect width="395" height="40" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+      <text x="14" y="25" font-size="12" font-weight="700" fill="#64748b">SITO:</text>
+      <text x="56" y="25" font-size="13" font-weight="700" fill="#0369a1">xfuryred.github.io/diabete-per-due-privacy</text>
+    </g>
+  </g>
+
+  <!-- Right Column: QR Code Box with shadow -->
+  <g transform="translate(485, 45)">
+    <!-- Container Card for QR Code -->
+    <rect width="315" height="405" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#backShadow)"/>
+    
+    <!-- QR Code Header inside Card -->
+    <g class="font-sans" transform="translate(0, 28)">
+      <text x="157" y="0" font-size="14" font-weight="800" fill="#0f172a" text-anchor="middle" letter-spacing="0.5">INQUADRA IL QR CODE</text>
+    </g>
+
+    <!-- Embedded Scaled QR Code -->
+    <g transform="translate(32, 45)">
+      <svg width="250" height="250" viewBox="0 0 100 100">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges">
+    <rect width="100" height="100" fill="#ffffff" rx="1"/>
+    <path d="M2,2h1v1h-1z M3,2h1v1h-1z M4,2h1v1h-1z M5,2h1v1h-1z M6,2h1v1h-1z M7,2h1v1h-1z M8,2h1v1h-1z M13,2h1v1h-1z M16,2h1v1h-1z M17,2h1v1h-1z M21,2h1v1h-1z M25,2h1v1h-1z M28,2h1v1h-1z M29,2h1v1h-1z M30,2h1v1h-1z M31,2h1v1h-1z M32,2h1v1h-1z M33,2h1v1h-1z M34,2h1v1h-1z M2,3h1v1h-1z M8,3h1v1h-1z M13,3h1v1h-1z M17,3h1v1h-1z M19,3h1v1h-1z M24,3h1v1h-1z M25,3h1v1h-1z M26,3h1v1h-1z M28,3h1v1h-1z M34,3h1v1h-1z M2,4h1v1h-1z M4,4h1v1h-1z M5,4h1v1h-1z M6,4h1v1h-1z M8,4h1v1h-1z M11,4h1v1h-1z M16,4h1v1h-1z M18,4h1v1h-1z M19,4h1v1h-1z M24,4h1v1h-1z M25,4h1v1h-1z M26,4h1v1h-1z M28,4h1v1h-1z M30,4h1v1h-1z M31,4h1v1h-1z M32,4h1v1h-1z M34,4h1v1h-1z M2,5h1v1h-1z M4,5h1v1h-1z M5,5h1v1h-1z M6,5h1v1h-1z M8,5h1v1h-1z M13,5h1v1h-1z M15,5h1v1h-1z M19,5h1v1h-1z M24,5h1v1h-1z M26,5h1v1h-1z M28,5h1v1h-1z M30,5h1v1h-1z M31,5h1v1h-1z M32,5h1v1h-1z M34,5h1v1h-1z M2,6h1v1h-1z M4,6h1v1h-1z M5,6h1v1h-1z M6,6h1v1h-1z M8,6h1v1h-1z M14,6h1v1h-1z M15,6h1v1h-1z M18,6h1v1h-1z M21,6h1v1h-1z M25,6h1v1h-1z M28,6h1v1h-1z M30,6h1v1h-1z M31,6h1v1h-1z M32,6h1v1h-1z M34,6h1v1h-1z M2,7h1v1h-1z M8,7h1v1h-1z M10,7h1v1h-1z M11,7h1v1h-1z M12,7h1v1h-1z M13,7h1v1h-1z M15,7h1v1h-1z M16,7h1v1h-1z M20,7h1v1h-1z M22,7h1v1h-1z M28,7h1v1h-1z M34,7h1v1h-1z M2,8h1v1h-1z M3,8h1v1h-1z M4,8h1v1h-1z M5,8h1v1h-1z M6,8h1v1h-1z M7,8h1v1h-1z M8,8h1v1h-1z M10,8h1v1h-1z M12,8h1v1h-1z M14,8h1v1h-1z M16,8h1v1h-1z M18,8h1v1h-1z M20,8h1v1h-1z M22,8h1v1h-1z M24,8h1v1h-1z M26,8h1v1h-1z M28,8h1v1h-1z M29,8h1v1h-1z M30,8h1v1h-1z M31,8h1v1h-1z M32,8h1v1h-1z M33,8h1v1h-1z M34,8h1v1h-1z M13,9h1v1h-1z M14,9h1v1h-1z M16,9h1v1h-1z M19,9h1v1h-1z M20,9h1v1h-1z M21,9h1v1h-1z M22,9h1v1h-1z M23,9h1v1h-1z M24,9h1v1h-1z M25,9h1v1h-1z M2,10h1v1h-1z M5,10h1v1h-1z M7,10h1v1h-1z M8,10h1v1h-1z M10,10h1v1h-1z M12,10h1v1h-1z M15,10h1v1h-1z M16,10h1v1h-1z M17,10h1v1h-1z M18,10h1v1h-1z M21,10h1v1h-1z M23,10h1v1h-1z M25,10h1v1h-1z M27,10h1v1h-1z M29,10h1v1h-1z M2,11h1v1h-1z M5,11h1v1h-1z M7,11h1v1h-1z M9,11h1v1h-1z M11,11h1v1h-1z M13,11h1v1h-1z M14,11h1v1h-1z M18,11h1v1h-1z M22,11h1v1h-1z M26,11h1v1h-1z M27,11h1v1h-1z M28,11h1v1h-1z M29,11h1v1h-1z M33,11h1v1h-1z M34,11h1v1h-1z M5,12h1v1h-1z M8,12h1v1h-1z M10,12h1v1h-1z M11,12h1v1h-1z M13,12h1v1h-1z M14,12h1v1h-1z M19,12h1v1h-1z M21,12h1v1h-1z M22,12h1v1h-1z M26,12h1v1h-1z M29,12h1v1h-1z M30,12h1v1h-1z M32,12h1v1h-1z M34,12h1v1h-1z M2,13h1v1h-1z M3,13h1v1h-1z M4,13h1v1h-1z M9,13h1v1h-1z M11,13h1v1h-1z M12,13h1v1h-1z M14,13h1v1h-1z M16,13h1v1h-1z M17,13h1v1h-1z M18,13h1v1h-1z M19,13h1v1h-1z M21,13h1v1h-1z M23,13h1v1h-1z M24,13h1v1h-1z M25,13h1v1h-1z M28,13h1v1h-1z M30,13h1v1h-1z M31,13h1v1h-1z M33,13h1v1h-1z M34,13h1v1h-1z M4,14h1v1h-1z M5,14h1v1h-1z M6,14h1v1h-1z M8,14h1v1h-1z M13,14h1v1h-1z M22,14h1v1h-1z M23,14h1v1h-1z M27,14h1v1h-1z M28,14h1v1h-1z M31,14h1v1h-1z M33,14h1v1h-1z M34,14h1v1h-1z M4,15h1v1h-1z M5,15h1v1h-1z M7,15h1v1h-1z M9,15h1v1h-1z M10,15h1v1h-1z M13,15h1v1h-1z M14,15h1v1h-1z M15,15h1v1h-1z M17,15h1v1h-1z M18,15h1v1h-1z M19,15h1v1h-1z M23,15h1v1h-1z M26,15h1v1h-1z M28,15h1v1h-1z M29,15h1v1h-1z M30,15h1v1h-1z M33,15h1v1h-1z M34,15h1v1h-1z M3,16h1v1h-1z M5,16h1v1h-1z M6,16h1v1h-1z M7,16h1v1h-1z M8,16h1v1h-1z M11,16h1v1h-1z M13,16h1v1h-1z M20,16h1v1h-1z M22,16h1v1h-1z M25,16h1v1h-1z M27,16h1v1h-1z M28,16h1v1h-1z M32,16h1v1h-1z M33,16h1v1h-1z M4,17h1v1h-1z M6,17h1v1h-1z M7,17h1v1h-1z M9,17h1v1h-1z M10,17h1v1h-1z M11,17h1v1h-1z M12,17h1v1h-1z M13,17h1v1h-1z M14,17h1v1h-1z M16,17h1v1h-1z M17,17h1v1h-1z M19,17h1v1h-1z M22,17h1v1h-1z M23,17h1v1h-1z M24,17h1v1h-1z M25,17h1v1h-1z M26,17h1v1h-1z M28,17h1v1h-1z M29,17h1v1h-1z M31,17h1v1h-1z M33,17h1v1h-1z M3,18h1v1h-1z M4,18h1v1h-1z M7,18h1v1h-1z M8,18h1v1h-1z M10,18h1v1h-1z M12,18h1v1h-1z M14,18h1v1h-1z M15,18h1v1h-1z M16,18h1v1h-1z M19,18h1v1h-1z M20,18h1v1h-1z M23,18h1v1h-1z M24,18h1v1h-1z M25,18h1v1h-1z M28,18h1v1h-1z M30,18h1v1h-1z M33,18h1v1h-1z M2,19h1v1h-1z M3,19h1v1h-1z M4,19h1v1h-1z M7,19h1v1h-1z M11,19h1v1h-1z M12,19h1v1h-1z M13,19h1v1h-1z M14,19h1v1h-1z M15,19h1v1h-1z M18,19h1v1h-1z M23,19h1v1h-1z M25,19h1v1h-1z M26,19h1v1h-1z M29,19h1v1h-1z M31,19h1v1h-1z M3,20h1v1h-1z M6,20h1v1h-1z M7,20h1v1h-1z M8,20h1v1h-1z M9,20h1v1h-1z M11,20h1v1h-1z M12,20h1v1h-1z M14,20h1v1h-1z M16,20h1v1h-1z M20,20h1v1h-1z M23,20h1v1h-1z M27,20h1v1h-1z M28,20h1v1h-1z M32,20h1v1h-1z M33,20h1v1h-1z M34,20h1v1h-1z M2,21h1v1h-1z M3,21h1v1h-1z M4,21h1v1h-1z M7,21h1v1h-1z M9,21h1v1h-1z M12,21h1v1h-1z M13,21h1v1h-1z M14,21h1v1h-1z M15,21h1v1h-1z M16,21h1v1h-1z M19,21h1v1h-1z M20,21h1v1h-1z M23,21h1v1h-1z M24,21h1v1h-1z M25,21h1v1h-1z M26,21h1v1h-1z M29,21h1v1h-1z M33,21h1v1h-1z M2,22h1v1h-1z M5,22h1v1h-1z M6,22h1v1h-1z M7,22h1v1h-1z M8,22h1v1h-1z M9,22h1v1h-1z M10,22h1v1h-1z M11,22h1v1h-1z M15,22h1v1h-1z M17,22h1v1h-1z M18,22h1v1h-1z M19,22h1v1h-1z M20,22h1v1h-1z M21,22h1v1h-1z M23,22h1v1h-1z M25,22h1v1h-1z M26,22h1v1h-1z M27,22h1v1h-1z M29,22h1v1h-1z M33,22h1v1h-1z M3,23h1v1h-1z M5,23h1v1h-1z M7,23h1v1h-1z M10,23h1v1h-1z M11,23h1v1h-1z M12,23h1v1h-1z M16,23h1v1h-1z M17,23h1v1h-1z M18,23h1v1h-1z M20,23h1v1h-1z M23,23h1v1h-1z M28,23h1v1h-1z M32,23h1v1h-1z M33,23h1v1h-1z M34,23h1v1h-1z M2,24h1v1h-1z M3,24h1v1h-1z M5,24h1v1h-1z M7,24h1v1h-1z M8,24h1v1h-1z M9,24h1v1h-1z M11,24h1v1h-1z M12,24h1v1h-1z M13,24h1v1h-1z M14,24h1v1h-1z M15,24h1v1h-1z M16,24h1v1h-1z M17,24h1v1h-1z M19,24h1v1h-1z M21,24h1v1h-1z M24,24h1v1h-1z M27,24h1v1h-1z M29,24h1v1h-1z M31,24h1v1h-1z M32,24h1v1h-1z M34,24h1v1h-1z M3,25h1v1h-1z M7,25h1v1h-1z M11,25h1v1h-1z M14,25h1v1h-1z M15,25h1v1h-1z M18,25h1v1h-1z M21,25h1v1h-1z M22,25h1v1h-1z M23,25h1v1h-1z M26,25h1v1h-1z M27,25h1v1h-1z M28,25h1v1h-1z M31,25h1v1h-1z M2,26h1v1h-1z M5,26h1v1h-1z M6,26h1v1h-1z M7,26h1v1h-1z M8,26h1v1h-1z M10,26h1v1h-1z M11,26h1v1h-1z M13,26h1v1h-1z M14,26h1v1h-1z M16,26h1v1h-1z M17,26h1v1h-1z M18,26h1v1h-1z M19,26h1v1h-1z M21,26h1v1h-1z M22,26h1v1h-1z M23,26h1v1h-1z M24,26h1v1h-1z M26,26h1v1h-1z M27,26h1v1h-1z M28,26h1v1h-1z M29,26h1v1h-1z M30,26h1v1h-1z M31,26h1v1h-1z M34,26h1v1h-1z M10,27h1v1h-1z M11,27h1v1h-1z M13,27h1v1h-1z M18,27h1v1h-1z M21,27h1v1h-1z M22,27h1v1h-1z M23,27h1v1h-1z M24,27h1v1h-1z M26,27h1v1h-1z M30,27h1v1h-1z M31,27h1v1h-1z M34,27h1v1h-1z M2,28h1v1h-1z M3,28h1v1h-1z M4,28h1v1h-1z M5,28h1v1h-1z M6,28h1v1h-1z M7,28h1v1h-1z M8,28h1v1h-1z M11,28h1v1h-1z M12,28h1v1h-1z M14,28h1v1h-1z M16,28h1v1h-1z M22,28h1v1h-1z M24,28h1v1h-1z M26,28h1v1h-1z M28,28h1v1h-1z M30,28h1v1h-1z M31,28h1v1h-1z M32,28h1v1h-1z M33,28h1v1h-1z M2,29h1v1h-1z M8,29h1v1h-1z M10,29h1v1h-1z M11,29h1v1h-1z M12,29h1v1h-1z M13,29h1v1h-1z M15,29h1v1h-1z M16,29h1v1h-1z M18,29h1v1h-1z M22,29h1v1h-1z M23,29h1v1h-1z M24,29h1v1h-1z M26,29h1v1h-1z M30,29h1v1h-1z M33,29h1v1h-1z M34,29h1v1h-1z M2,30h1v1h-1z M4,30h1v1h-1z M5,30h1v1h-1z M6,30h1v1h-1z M8,30h1v1h-1z M13,30h1v1h-1z M15,30h1v1h-1z M16,30h1v1h-1z M17,30h1v1h-1z M18,30h1v1h-1z M21,30h1v1h-1z M23,30h1v1h-1z M24,30h1v1h-1z M26,30h1v1h-1z M27,30h1v1h-1z M28,30h1v1h-1z M29,30h1v1h-1z M30,30h1v1h-1z M31,30h1v1h-1z M33,30h1v1h-1z M34,30h1v1h-1z M2,31h1v1h-1z M4,31h1v1h-1z M5,31h1v1h-1z M6,31h1v1h-1z M8,31h1v1h-1z M10,31h1v1h-1z M11,31h1v1h-1z M12,31h1v1h-1z M14,31h1v1h-1z M15,31h1v1h-1z M16,31h1v1h-1z M17,31h1v1h-1z M19,31h1v1h-1z M26,31h1v1h-1z M28,31h1v1h-1z M30,31h1v1h-1z M2,32h1v1h-1z M4,32h1v1h-1z M5,32h1v1h-1z M6,32h1v1h-1z M8,32h1v1h-1z M12,32h1v1h-1z M13,32h1v1h-1z M14,32h1v1h-1z M16,32h1v1h-1z M20,32h1v1h-1z M23,32h1v1h-1z M25,32h1v1h-1z M26,32h1v1h-1z M30,32h1v1h-1z M32,32h1v1h-1z M34,32h1v1h-1z M2,33h1v1h-1z M8,33h1v1h-1z M11,33h1v1h-1z M15,33h1v1h-1z M17,33h1v1h-1z M18,33h1v1h-1z M19,33h1v1h-1z M20,33h1v1h-1z M21,33h1v1h-1z M23,33h1v1h-1z M24,33h1v1h-1z M25,33h1v1h-1z M26,33h1v1h-1z M27,33h1v1h-1z M2,34h1v1h-1z M3,34h1v1h-1z M4,34h1v1h-1z M5,34h1v1h-1z M6,34h1v1h-1z M7,34h1v1h-1z M8,34h1v1h-1z M10,34h1v1h-1z M12,34h1v1h-1z M13,34h1v1h-1z M15,34h1v1h-1z M18,34h1v1h-1z M23,34h1v1h-1z M26,34h1v1h-1z M27,34h1v1h-1z M30,34h1v1h-1z M31,34h1v1h-1z M33,34h1v1h-1z" fill="#0f172a"/>
+  </svg>
+      </svg>
+    </g>
+
+    <!-- Google Play Mock Badge -->
+    <g class="font-sans" transform="translate(32, 310)">
+      <rect width="250" height="48" rx="8" fill="#0f172a"/>
+      <!-- Play Triangle Icon -->
+      <path d="M22,14 L36,24 L22,34 Z" fill="#38bdf8"/>
+      <text x="46" y="20" font-size="9" font-weight="500" fill="#94a3b8" letter-spacing="0.5">DISPONIBILE SU</text>
+      <text x="46" y="36" font-size="16" font-weight="800" fill="#ffffff" letter-spacing="0.2">Google Play</text>
+      <rect x="180" y="16" width="60" height="18" rx="4" fill="#0284c7"/>
+      <text x="186" y="29" font-size="10" font-weight="700" fill="#ffffff">TESTER</text>
+    </g>
+
+    <!-- Bottom security reassurance -->
+    <g class="font-sans" transform="translate(0, 385)">
+      <text x="157" y="0" font-size="11" font-weight="600" fill="#16a34a" text-anchor="middle">✓ Nessun dato salvato su server o condiviso</text>
+    </g>
+  </g>
+
+  <!-- Bottom Dedicated Footer Note -->
+  <g class="font-sans" transform="translate(50, 515)">
+    <text x="0" y="0" font-size="12" font-weight="500" fill="#64748b">
+      Creato con amore da futuri genitori per supportare le future mamme ❤️ • Contatto: <tspan font-weight="700" fill="#0284c7">diabete-per-due-testers@googlegroups.com</tspan>
+    </text>
+  </g>
+</svg>
